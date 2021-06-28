@@ -29,7 +29,9 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
+
   }
+
 }
 
 function myMap() {
