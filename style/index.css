@@ -1,0 +1,1512 @@
+
+* {box-sizing: border-box;}
+
+header
+{
+  width:100%;
+  background-color: #207dff;
+}
+body
+{
+  font-family: "Poppins",Arial, sans-serif;
+   margin: 0px;
+}
+.para
+{
+  color:#999;
+}
+.span-color
+{
+  color: rgba(32,125,255);
+}
+.bg-img
+{
+  /* The image used */
+  background-image: url("../images/xbg_3.png");
+
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.nav1{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  height:30px;
+  color:white
+}
+.nav-icon
+{
+  padding-left: 10%;
+}
+.signin-div
+{
+  padding-right: 7%;
+}
+.nav1 a
+{
+  color:white;
+}
+.nav2{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap: wrap;
+  background-color:rgba(255,255,255,0.5);
+}
+.left
+{
+  flex-basis: 30%;
+
+}
+.left h1
+{
+  padding-left: 10%;
+}
+/* .right
+{
+
+
+} */
+.topnav button
+{
+  padding:10px;
+  color:white;
+  border-radius: 25px;
+  background-color:rgb(235, 67, 5);
+  float: right;
+  color:white;
+}
+/* .right a
+{
+  padding-left: 5%;
+} */
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  flex-basis: 70%;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.nav2-button
+{
+  padding:10px;
+  color: white !important;;
+  background-color:rgb(235, 67, 5);
+  border-radius: 6px;
+  padding: 25px 50px;
+
+}
+.nav-menu-hidden
+{
+  display:none;
+  color:grey;
+}
+.topnav a:last-child
+  {
+    display: none;
+  }
+
+.main-div
+{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 90%;
+  margin: 0 auto;
+  position:absolute;
+}
+.main-div1
+{
+  flex-basis: 10%;
+}
+.main-div2
+{
+  flex-basis: 40%;
+}
+.main-div2 h5
+{
+  font-size: 17px;
+  color:rgba(32,125,255);
+}
+.main-div2 h3
+{
+ font-size: 45px;
+ font-weight: 900;
+ margin-top: 0%;
+ margin-bottom: 0%;
+}
+.main-div2 p
+{
+  padding-bottom: 2%;
+}
+.main-div2 a
+{
+  padding:10px;
+  color:white;
+  background-color:rgba(32,125,255);
+  border-radius: 25px;
+  padding: 18px 30px;
+
+}
+.main-div-left h3
+{
+  padding: 0;
+  font-size: 50px;
+}
+.main-div3
+{
+  flex-basis: 40%;
+}
+
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 556px;
+}
+.appointment-left1
+{
+  flex-basis: 7%;
+}
+.appointment-left2
+{
+  height:100%;
+  flex-basis:39%;
+}
+.appointment-right1
+{
+  flex-basis: 33%;
+}
+.appointment-right1 h3
+{
+  font-size: 45px;
+  margin-bottom: 5%;
+}
+.appointment-right1-button1
+{
+  background-color: rgba(32,125,255);
+  border-radius: 25px;
+  margin-right: 5px;
+  color:white;
+  padding: 15px 30px;
+
+}
+.appointment-right1-button2
+{
+  padding: 15px 30px;
+  background-color: rgb(235, 67, 5);
+  border-radius: 25px;
+  margin-right: 5px;
+  color:white;
+}
+.appointment-right1 p
+{
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 8%;
+}
+.appointment-left2 img
+{
+  width:77%;
+  height: 100%;}
+.appointment-right2
+{
+  flex-basis: 1%;
+}
+
+
+.bg-img2 {
+  /* The image used */
+  background-image: url("../images/xbg_2.png");
+
+  min-height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+}
+.search-places-heading
+{
+  font-size: 55px;
+  color:white;
+  font-weight:900;
+  margin-bottom: 0;
+}
+.search-places-para
+{
+  color:white;
+}
+.search-places-button
+{
+  padding: 15px 30px;
+  background-color:white;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.search-places-div
+{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.qualified-doc-div-heading
+{
+  font-size: 45px;
+  font-weight: 900;
+}
+.qualified-doc-box
+{
+  text-align: center;
+}
+.qualified-doc-box h1
+{
+  font-size: 30px;
+}
+.qualified-doc-box h2
+{
+  font-size: 20px;
+  color:rgba(32,125,255);
+}
+.qualified-doc-box p
+{
+margin-bottom:30px ;
+}
+.qualified-doc-box a
+{
+  padding: 15px 30px;
+  background-color:rgba(32,125,255);
+  border-radius: 25px;
+  color:white;
+}
+
+.qualified-doc-div
+{
+  text-align: center;
+  margin-top:5%;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+}
+.container-qualified-doc
+{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+.qualified-doc-box
+{
+  flex-basis: 22%;
+}
+.qualified-doc-box img
+{
+  width:100%;
+}
+
+
+.bg-img3 {
+  /* The image used */
+  background-image: linear-gradient(to right, rgba(32,125,255,0.5), rgba(32,125,255,0.5)), url('../images/xbg_3.png');
+  min-height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(32,125,255,0.5);
+  /* Needed to position the navbar */
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.fun-facts
+{
+  margin-top: 200px;
+}
+.container-fun-facts
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.fun-facts-left
+{
+  display:flex;
+  /* flex-direction: column;
+  justify-content:center; */
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 59%;
+  padding: 18%;
+  color:white;
+}
+.fun-facts-left a
+{
+  padding: 15px 30px;
+  background-color:rgb(235, 67, 5);
+  border-radius: 25px;
+  margin-right: 5px;
+  color:white;
+}
+.fun-facts-left h4
+{
+  text-align: left;
+}
+.fun-facts-left p
+{
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+.fun-facts-right
+{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 41%;
+  color:white;
+  font-weight:bolder;
+}
+.fun-facts-right-box
+{
+  text-align: center;
+  flex-basis: 50%;
+}
+.one
+{
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.5);
+  padding-bottom: 5%;
+}
+.two
+{
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  padding-bottom: 5%;
+
+}
+.three
+{
+  border-right: 1px solid rgba(255,255,255,0.5);
+  padding-top: 5%;
+}
+.four
+{
+
+  padding-top: 5%;
+}
+
+.singleupdate-doc-div
+{
+  margin-top:5%;
+
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+}
+.singleupdate-doc-div h1
+{
+  font-size: 45px;
+  font-weight: 900;
+}
+/* body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+.singleupdate-container
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.singleupdate-doc-box
+{
+  flex-basis: 30%;
+  margin-top: 5%;
+}
+.singleupdate-doc-box img
+{
+  width: 100%;
+}
+.singleupdate-doc-box h4
+{
+  color:red;
+}
+.singleupdate-doc-box h2
+{
+  font-weight:bold;
+}
+.singleupdate-doc-box a
+{
+  padding: 15px 30px;
+  background-color:rgba(32,125,255);
+  border-radius: 25px;
+  color:white;
+}
+.singleupdate-doc-box p
+{
+  margin-bottom: 5%;
+}
+
+.bg-img4 {
+  /* The image used */
+  background-image: linear-gradient(to right, rgba(32,125,255,0.5), rgba(32,125,255, 0.5)), url('../images/xbg_3.png');
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.patient-div
+{
+ text-align: center;
+ flex-basis: 20%;
+ color:white;
+}
+.patient-div-heading
+{
+  font-size: 20px;
+}
+.patient-div-para
+{
+  font-size: 40px;
+  font-weight: 900;
+}
+.patient-container
+{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 70%;
+}
+.patient-box
+{
+  color:white;
+  flex-basis: 30%;
+  text-align: center;
+}
+.patient-box img
+{
+  width:30%;
+  border-radius: 50%;
+}
+.patient-box p
+{
+  text-align:center;
+}
+.patient-box-name
+{
+  font-weight: 700;
+}
+.patient-box-container
+{
+  position: relative;
+  margin:0 auto;
+}
+/* .patient-box-container img
+{
+  display: block;
+} */
+.patient-box-container span {
+  position: absolute;
+  bottom: -2%;
+  right: 32%;
+  width: 12%;
+  height: 37%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center ;
+  background-color: #fe5f55;
+}
+.contact-us-div
+{
+  margin-top:5%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+}
+.contact-us-div h1
+{
+  font-size: 40px;
+  font-weight: 900;
+}
+.container-contact-us
+{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact-us-box
+{
+  flex-basis: 22%;
+  background-color: rgb(236, 240, 245);
+  text-align: center;
+  height:400px
+
+}
+.contact-us-box i
+{
+  border-radius: 50%;
+  padding:8%;
+  margin:25px;
+  color:rgba(32,125,255);
+  background-color: white;
+  border:3px solid white;
+  font-size: 31px;
+}
+.contact-us-box p
+{
+  padding-left: 15px;
+  padding-right:15px;
+
+}
+.map
+{
+  margin-top: 5%;
+}
+.map-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+}
+.map-box-left
+{
+
+  flex-basis: 45%;
+  text-align: right;
+  width: 100%;
+  height: 100%;
+}
+ .map-box-left img
+     {
+       width: 94%;
+     }
+.map-box-right
+{
+  background-color: rgb(236, 240, 245);
+  text-align: center;
+  flex-basis: 45%;
+  height: 100%;
+  padding: 3.9% 0%;
+}
+.map-box-right a
+{
+  padding: 15px 30px;
+  background-color:tomato;
+  border-radius: 25px;
+  text-align: left;
+  color:white;
+}
+.map-box-right p
+{
+  margin-top: 3%;
+  text-align: left;
+  padding-left: 10%;
+}
+.map-box-right input
+{
+  border: 2px solid rgb(222, 223, 224);
+  border-radius: 2%;
+}
+.map-box img
+{
+  width: 70%;
+}
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea
+{
+  width: 80%;
+  border: 2px solid rgb(222, 223, 224);
+  border-radius: 2%;
+}
+
+.footer
+{
+  margin-top: 10%;
+  background-color: lightgray;
+
+}
+.footer-box p
+{
+  color:rgba(32,125,255);
+}
+.footer-box a
+{
+  padding-left: 1%;
+
+}
+.footer-box-para
+{
+  color: black;
+  padding-left: 2%;
+  padding-top: 5%;
+}
+.footer-div
+{
+  text-align: center;
+  padding-bottom: 3%;
+}
+.bg-img5 {
+
+  /* The image used */
+
+  min-height: 600px;
+
+  display: flex;
+  align-items:baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer-box
+{
+  flex: 13%;
+}
+.color-black
+{
+  color: black !important;;
+}
+.mobile-sec1
+{
+  display: none;
+}
+.mobile-sec2
+{
+  display: none;
+}
+
+@media screen and (max-width: 601px) {
+  /* .topnav a:not(:first-child) {
+    display: none;
+  } */
+  .topnav a:not(:last-child)
+  {
+    display: none;
+
+  }
+ .topnav a:last-child
+ {
+   float: right;
+   display: block;
+ }
+  .topnav button{
+    display:none;
+  }
+  .topnav a.icon {
+    display: block;
+    padding-right: 0%;
+}
+  header
+  {
+    display: none;
+  }
+  .nav2
+  {
+    color:white;
+    background-color: black;
+  }
+  .topnav a
+  {
+    color:grey;
+  }
+  .main-div1 {
+    flex-basis: 0%;
+  }
+  .main-div2
+  {
+    flex-basis: 90%;
+  }
+  .main-div3
+  {
+    flex-basis: 0%;
+  }
+  .container {
+   height: auto;
+  }
+  .appointment-left2 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .appointment-left2 img {
+    width: 70%;
+    min-height: 450px;
+  }
+  .appointment-right1 {
+    flex-basis: 100%;
+    margin-bottom: 4%;
+  }
+  .appointment-right1 h3 {
+    font-size: 25px;
+    margin: 4%;
+  }
+  .appointment-right1 p {
+    text-align: left;
+    margin-top: 0;
+    margin: 4%;
+  }
+  .appointment-right1-button1 {
+
+    margin: 2%;
+    display: block;
+    text-align: center;
+  }
+  .appointment-right1-button2 {
+
+    margin: 2%;
+    display: block;
+    text-align: center;
+  }
+  .bg-img2 {
+    min-height: 576px;
+    text-align: center;
+  }
+  .search-places-div {
+    align-items: center;
+  }
+  .search-places-heading {
+    font-size: 49px;
+    margin: 1px;
+  }
+  .search-places-para {
+    margin: 1%;
+    margin-bottom: 3%;
+  }
+  .qualified-doc-div-para {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 0%;
+  }
+  .qualified-doc-div-heading {
+    font-size: 28px;
+  }
+  .qualified-doc-box {
+    flex-basis: 80%;
+  }
+  .qualified-doc-box img {
+    width: 93%;
+    margin-top: 21%;
+  }
+  .qualified-doc-box h1 {
+    font-size: 21px;
+  }
+  .qualified-doc-box {
+    flex-basis: 80%;
+  }
+  .qualified-doc-box img {
+    width: 93%;
+    margin-top: 21%;
+  }
+  .qualified-doc-box h1 {
+    font-size: 21px;
+  }
+  .qualified-doc-box h2 {
+    font-size: 14px;
+  }
+  .qualified-doc-box a {
+    padding: 12px 28px;
+    margin-bottom: 1%;
+  }
+  .fun-facts-left {
+    display: block;
+    flex-basis: 96%;
+    padding: 1%;
+    margin-bottom: 0;
+  }
+  .fun-facts-right {
+    flex-basis: 94%;
+  }
+  .fun-facts-right-box {
+    flex-basis: 100%;
+    margin-bottom: 0%;
+  }
+  .fun-facts-left h4 {
+    font-size: 12px;
+  }
+  .fun-facts-left p {
+    font-size: 21px;
+  }
+  .fun-facts-left a {
+      margin-right: 0px;
+      width: 100%;
+      margin-bottom: -73px;
+      display: block;
+      text-align: center;
+  }
+  .fun-facts {
+    margin-top: 18%;
+  }
+  .singleupdate-doc-div p
+  {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .singleupdate-doc-div h1 {
+    font-size: 22px;
+  }
+  .singleupdate-doc-box {
+    flex-basis: 92%;
+  }
+  .singleupdate-doc-box img {
+    margin-top: 4%;
+  }
+  .singleupdate-doc-box h4 {
+    font-size: 12px;
+  }
+  .singleupdate-doc-box h2 {
+    font-size: 17px;
+  }
+  .singleupdate-doc-box a {
+    padding: 11px 29px;
+  }
+  .singleupdate-doc-box p {
+    margin-bottom: 7%;
+  }
+  .patient-container div:not(:first-child) {
+    display: none;
+  }
+  .patient-div-heading {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .patient-div-para {
+    font-size: 33px;
+    margin-top: 5%;
+    margin-bottom: 29%;
+  }
+  .patient-box {
+    flex-basis: 98%;
+  }
+  .patient-box img {
+    width: 34%;
+  }
+  .bg-img4 {
+    margin-top: 26%;
+  }
+  .contact-us-div h1 {
+    font-size: 32px;
+  }
+  .contact-us-div p
+  {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .contact-us-box {
+    flex-basis: 87%;
+    height: 313px;
+    margin-bottom: 8%;
+  }
+  .contact-us-box {
+    flex-basis: 87%;
+    height: 301px;
+    margin-bottom: 10%;
+  }
+  .contact-us-box i {
+    padding: 7%;
+    margin: 25px;
+    font-size: 27px;
+  }
+  .contact-us-box p {
+    font-size: 15px;
+  }
+  .contact-us-box h2
+  {
+    font-size: 19px;
+  }
+  .map-container {
+    /* flex-direction: column-reverse;
+    align-items: baseline; */
+    height: auto;
+  }
+  .map-box-right {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    flex-basis: 100%;
+  }
+  .map-box-left {
+
+  flex-basis: 100%;
+  text-align: right;
+  height: 313px;
+  }
+  textarea {
+    margin-bottom: 4%;
+    margin-top: 4%;
+  }
+  .map-box-right a {
+    padding: 13px 30px;
+    margin-top: 37%
+  }
+
+  .footer-box {
+    flex: 85%;
+    padding-left: 5%;
+  }
+
+  .footer-div p {
+    font-size: 14px;
+    padding-left: 6%;
+    padding-right: 7%;
+  }
+  .one
+  {
+    border:none;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-bottom: 5%;
+    padding-top: 9%;
+
+  }
+  .two
+  {
+    border:none;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+  }
+  .three
+  {
+    border:none;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+  .four
+  {
+    border:none;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+  .mobile-sec1
+  {
+    display: block;
+    background-color: rgb(236, 240, 245);  }
+  .mobile-sec1-row
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .mobile-sec1-box {
+    text-align: center;
+    flex-basis: 100%;
+    border-bottom: 1px solid rgb(187, 180, 180);
+    padding-top: 41px;
+    padding-bottom: 17px;
+  }
+  .mobile-sec1-box h3
+  {
+    font-weight:400;
+  }
+  .mobile-sec1-row div:first-child
+  {
+    margin-top: 0px;
+  }
+
+  .mobile-sec1-box i
+  {
+    color: rgba(32,125,255);;
+    font-size: 30px;
+  }
+  .mobile-sec2
+  {
+    display: block;
+    background-color: rgb(236, 240, 245);
+  }
+  .services-row1
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2.9%;
+  }
+  .services-row1-box
+  {
+    text-align: left;
+    flex-basis: 100%;
+    padding-top: 11px;
+    padding-bottom: 17px;
+  }
+  .services-row2
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .services-row2-box-left
+  {
+    flex-basis: 15%;
+  }
+
+  .services-row2-box-right
+  {
+    flex-basis: 65%;
+  }
+  .services-row2-box-left i
+  {
+    color:rgb(235, 67, 5);
+    border-radius: 50%;
+    padding: 32%;
+    background-color: rgba(235, 53, 53, 0.1);
+    font-size: 44px;
+  }
+  .left
+  {
+    flex-basis: 60%;
+  }
+  .left h1
+  {
+    padding-left: 5%;
+  }
+}
+
+
+
+    /* For tablets: */
+@media only screen and (min-width: 600px) and (max-width: 1280px)
+  {
+    .left
+    {
+      flex-basis: 60%;
+    }
+    .left h1
+    {
+      padding-left: 5%;
+    }
+    .topnav a:not(:last-child)
+    {
+      display: none;
+
+    }
+   .topnav a:last-child
+   {
+     float: right;
+     display: block;
+   }
+    .topnav button{
+      display:none;
+    }
+    .topnav a.icon {
+      display: block;
+      padding-right: 0%;
+  }
+    header
+    {
+      display: none;
+    }
+    .nav2
+    {
+      color:white;
+      background-color: black;
+    }
+    .topnav a
+    {
+      color:grey;
+    }
+    .main-div1 {
+      flex-basis: 2%;
+    }
+    .main-div2
+    {
+      flex-basis: 55%;
+    }
+    .main-div3
+    {
+      flex-basis: 28%;
+    }
+    .container {
+      height: 554px;
+     }
+     .appointment-left1
+     {
+       flex-basis: 0%;
+     }
+     .appointment-left2 {
+       flex-basis:40%;
+       text-align: center;
+       height: 100%;
+     }
+     .appointment-left2 img {
+       width: 70%;
+       min-height: 450px;
+       height: 100%;
+     }
+     .appointment-right1 {
+       flex-basis: 40%;
+       margin-bottom: 4%;
+     }
+     .appointment-right1 h3 {
+       font-size: 45px;
+       margin: 4%;
+     }
+     .appointment-right1 p {
+       text-align: left;
+       margin-top: 0;
+       margin: 7%;
+     }
+     .appointment-right1-button1 {
+
+       margin: 2%;
+       display: block;
+       text-align: center;
+     }
+     .appointment-right1-button2 {
+
+       margin: 2%;
+       display: block;
+       text-align: center;
+     }
+     .appointment-right2
+     {
+       flex-basis: 0%;
+     }
+     /* .bg-img2 {
+       min-height: 576px;
+       text-align: center;
+     }
+     .search-places-div {
+       align-items: center;
+     }
+     .search-places-heading {
+       font-size: 49px;
+       margin: 1px;
+     }
+     .search-places-para {
+       margin: 1%;
+       margin-bottom: 3%;
+     }*/
+
+     /* .qualified-doc-div-para {
+       margin-left: 4%;
+       margin-right: 4%;
+       margin-top: 0%;
+     } */
+     .qualified-doc-div-heading {
+       margin:auto;
+      }
+
+     .qualified-doc-box {
+       flex-basis: 45%;
+     }
+
+     .qualified-doc-box img {
+       width: 100%;
+       margin-top: 15%;
+     }
+     /*
+     .qualified-doc-box h1 {
+       font-size: 21px;
+     }
+     .qualified-doc-box {
+       flex-basis: 80%;
+     }
+     .qualified-doc-box img {
+       width: 93%;
+       margin-top: 21%;
+     }
+     .qualified-doc-box h1 {
+       font-size: 21px;
+     }
+     .qualified-doc-box h2 {
+       font-size: 14px;
+     }
+     .qualified-doc-box a {
+       padding: 12px 28px;
+       margin-bottom: 1%;
+     }*/
+
+     .fun-facts-left {
+
+       padding: 8%;
+     }
+     /*
+     .fun-facts-right {
+       flex-basis: 94%;
+     }
+     .fun-facts-right-box {
+       flex-basis: 100%;
+       margin-bottom: 0%;
+     }
+     .fun-facts-left h4 {
+       font-size: 12px;
+     }
+     .fun-facts-left p {
+       font-size: 21px;
+     }
+     .fun-facts-left a {
+         margin-right: 0px;
+         width: 100%;
+         margin-bottom: -73px;
+         display: block;
+         text-align: center;
+     }
+     .fun-facts {
+       margin-top: 18%;
+     }*/
+     .singleupdate-doc-div p
+     {
+       text-align: center;
+       padding-left: 5%;
+       padding-right: 5%;
+     }
+
+     .singleupdate-doc-div h1 {
+       font-size: 38px;
+     }
+     /*
+     .singleupdate-doc-box {
+       flex-basis: 92%;
+     }
+     .singleupdate-doc-box img {
+       margin-top: 4%;
+     }
+     .singleupdate-doc-box h4 {
+       font-size: 12px;
+     }
+     .singleupdate-doc-box h2 {
+       font-size: 17px;
+     }
+     .singleupdate-doc-box a {
+       padding: 11px 29px;
+     }*/
+
+     .singleupdate-doc-box p {
+       margin-bottom: 9%;
+     }
+     /*
+     .patient-container div:not(:first-child) {
+       display: none;
+     }
+     .patient-div-heading {
+       font-size: 14px;
+       font-weight: bold;
+     }
+     .patient-div-para {
+       font-size: 33px;
+       margin-top: 5%;
+       margin-bottom: 29%;
+     }
+     .patient-box {
+       flex-basis: 98%;
+     }
+     .patient-box img {
+       width: 34%;
+     }
+     .bg-img4 {
+       margin-top: 26%;
+     }
+     .contact-us-div h1 {
+       font-size: 32px;
+     }
+     .contact-us-div p
+     {
+       padding-left: 6%;
+       padding-right: 6%;
+     }
+     .contact-us-box {
+       flex-basis: 87%;
+       height: 313px;
+       margin-bottom: 8%;
+     }
+     .contact-us-box {
+       flex-basis: 87%;
+       height: 301px;
+       margin-bottom: 10%;
+     }*/
+
+     .contact-us-box i {
+      font-size: 27px;
+      padding: 6%;
+     }
+     /*
+     .contact-us-box p {
+       font-size: 15px;
+     }
+     .contact-us-box h2
+     {
+       font-size: 19px;
+     }
+     .map-container {
+       flex-direction: column-reverse;
+       align-items: baseline;
+     }
+     .map-box-right {
+       padding-top: 44px;
+       padding-bottom: 44px;
+     }
+     .map-box-left {
+       flex-basis: 84%;
+       text-align: center;
+     }*/
+
+     .map-box-left {
+      flex-basis: 45%;
+      text-align: right;
+      height: 100%;
+    }
+     textarea {
+      margin-bottom: 5%;
+     }
+     /*
+     .map-box-right a {
+       padding: 13px 30px;
+       margin-top: 37%
+     }*/
+
+     .map-box-left img
+     {
+       width: 94%;
+     }
+     .bg-img5
+     {
+       min-height:490px;
+     }
+     .footer-box {
+       flex: 21%;
+       margin-top: 2%;
+     }
+     .footer-box :first-child
+     {
+       padding-left: 3%;
+     }
+     .footer-box :last-child
+     {
+       padding-right: 3%;
+     }
+     /*
+     .footer-div p
+     {
+       font-size: 17px;
+     } */
+     .footer-div p
+     {
+      font-size: 14px;
+     }
+  }
+
+@media only screen and (min-width: 600px) and (max-width: 780px)
+{
+  .search-places-heading {
+    font-size: 46px;
+  }
+  .search-places-para {
+    text-align: center;
+  }
+  .singleupdate-doc-box p {
+    margin-bottom: 13%;
+  }
+  .contact-us-box {
+    flex-basis: 45%;
+    height: 313px;
+    margin-bottom: 8%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive a:last-child
+  {
+    display: none;
+  }
+  .topnav.responsive button {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
