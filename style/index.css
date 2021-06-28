@@ -1492,8 +1492,17 @@ textarea
   .topnav.responsive {
     position: relative;
   }
-
+  .topnav.responsive a:first-child
+  {
+    margin-top: 30%;
+  }
   .topnav.responsive .icon {
+    position: absolute;
+    right: 15;
+    top: 0;
+  }
+  .topnav.responsive .nav-menu-hidden
+  {
     position: absolute;
     right: 0;
     top: 0;
@@ -1504,10 +1513,10 @@ textarea
     display: block;
     text-align: left;
   }
-  .topnav.responsive a:last-child
+  /* .topnav.responsive a:last-child
   {
     display: none;
-  }
+  } */
   .topnav.responsive button {
     float: none;
     display: block;
