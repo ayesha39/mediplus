@@ -1,10 +1,20 @@
 function myFunction() {
   var x = document.getElementById("myTopnav");
+  var y = document.getElementById("topdiv");
   if (x.className === "topnav") {
     x.className += " responsive";
-  } else {
-    x.className = "topnav";
+    if(y.className==="main-div")
+    {
+      y.className +=" maindiv-height";
+    }
+
+
   }
+   else {
+    x.className = "topnav";
+    y.className="main-div";
+  }
+
 }
 
 function myMap() {
