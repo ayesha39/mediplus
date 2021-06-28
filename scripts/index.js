@@ -1,20 +1,35 @@
+// function myFunction() {
+//   var x = document.getElementById("myTopnav");
+//   var y = document.getElementById("topdiv");
+//   if (x.className === "topnav") {
+//     x.className += " responsive";
+//     if(y.className==="main-div")
+//     {
+//       y.className +=" maindiv-height";
+//     }
+
+
+//   }
+//    else {
+//     x.className = "topnav";
+//     y.className="main-div";
+//   }
+
+// }
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  var y = document.getElementById("topdiv");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-    if(y.className==="main-div")
-    {
-      y.className +=" maindiv-height";
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
     }
-
-
   }
-   else {
-    x.className = "topnav";
-    y.className="main-div";
-  }
-
 }
 
 function myMap() {
